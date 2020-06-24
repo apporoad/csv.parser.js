@@ -1,0 +1,29 @@
+{
+  "name": "csv.parser.js",
+  "version": "1.0.0",
+  "description": "csv to json and json to csv, and tiny lightly one",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apporoad/csv.parser.js.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "parse",
+    "tiny",
+    "light"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apporoad/csv.parser.js/issues"
+  },
+  "homepage": "https://github.com/apporoad/csv.parser.js#readme",
+  "dependencies": {
+    "jsonexport": "^3.0.0"
+  }
+}

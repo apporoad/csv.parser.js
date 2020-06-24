@@ -1,16 +1,4 @@
-# csv.parser.js
-csv to json and json to csv , what is a pity that i must repeatly make the wheel
-
-
-## just do it
-
-```bash
-npm i --save csv.parser.js
-```
-
-
-```js
-const p = require('csv.parser.js')
+const p = require('./index')
 
 const json = [
   {code: 'CA', name: 'California', hello : { name : '1'}},
@@ -18,7 +6,6 @@ const json = [
   {code: 'NY', name: 'New York'},
 ]
  
-// delimiter default is  ','
 (async()=>{
     var csv = await  p.toCsv(json, {delimiter : '\t'})
 
@@ -28,5 +15,3 @@ const json = [
 
     console.log(JSON.stringify(json2))
 })()
-
-```
