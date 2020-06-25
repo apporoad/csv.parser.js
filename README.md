@@ -5,12 +5,12 @@ csv to json and json to csv , what is a pity that i must repeatly make the wheel
 ## just do it
 
 ```bash
-npm i --save @apporoad/csv.parser.js
+npm i --save lisa.csv.parser.js
 ```
 
 
 ```js
-const p = require('csv.parser.js')
+const p = require('lisa.csv.parser.js')
 
 const json = [
   {code: 'CA', name: 'California', hello : { name : '1'}},
