@@ -1,5 +1,5 @@
 {
-  "name": "csv.parser.js",
+  "name": "@apporoad/csv.parser.js",
   "version": "1.0.0",
   "description": "csv to json and json to csv, and tiny lightly one",
   "main": "index.js",
