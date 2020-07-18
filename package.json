@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/apporoad/csv.parser.js#readme",
   "dependencies": {
-    "jsonexport": "^3.0.0"
+    "jsonexport": "^3.0.0",
+    "lisa.json": "^1.3.2"
   }
 }

@@ -1,3 +1,4 @@
+const ljson = require('lisa.json')
 exports.toJson = (data, options) => {
     options = options || {}
     options.delimiter = options.delimiter || ","
@@ -14,7 +15,8 @@ exports.toJson = (data, options) => {
             item = item.split(options.delimiter);
             var hashItem = {}
             Columns.forEach(function (c, i) {
-                hashItem[c] = item[i];
+                //hashItem[c] = item[i];
+                ljson(hashItem).set(c ,item[i])
             })
             jsonObject.push(hashItem);
         }
